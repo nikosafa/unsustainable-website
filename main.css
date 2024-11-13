@@ -1,0 +1,22 @@
+/* Using multiple font families */
+body {
+    font-family: 'Roboto', 'Open Sans', 'Lato', 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Unoptimized CSS animations */
+@keyframes spinning {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+img {
+    width: 100%;
+    animation: spinning 20s linear infinite;
+}
+
+/* Unnecessary styles */
+.unused-class {
+    color: blue;
+}
