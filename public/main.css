@@ -5,6 +5,8 @@ body {
     color: #000000;
 }
 
+
+
 h1 {
     text-align: center;
     font-size: 3rem;
@@ -49,4 +51,12 @@ div.landscape h3 {
     transform: translate(-50%, -50%);
     color: white;
     font-size: 2rem;
+}
+
+#product-list h2 {
+    font-family: 'Montserrat';
+}
+
+#product-list p {
+    font-family: 'Roboto';
 }

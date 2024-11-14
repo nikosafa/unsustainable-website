@@ -24,6 +24,7 @@ app.get('/api/products', (req, res) => {
     });
 });
 
+
 // Endpoint to get product by ID
 app.get('/api/products/:id', (req, res) => {
     connection.query(
