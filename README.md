@@ -17,5 +17,5 @@ To run project run
 npm run start 
 ```
 
-Now go to `http://localhost:3001/`
+Now go to [http://localhost:3001/](http://localhost:3001/)
 
