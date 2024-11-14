@@ -5,10 +5,9 @@ body {
     color: #000000;
 }
 
-/* Unoptimized CSS animations */
-@keyframes spinning {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+h1 {
+    text-align: center;
+    font-size: 3rem;
 }
 
 img {
@@ -16,7 +15,38 @@ img {
 
 }
 
-/* Unnecessary styles */
-.unused-class {
+
+.blue {
     color: blue;
+}
+
+video {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+div.video {
+    position: relative;
+}
+
+div.video h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+}
+
+div.landscape {
+    position: relative;
+}
+div.landscape h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
 }
